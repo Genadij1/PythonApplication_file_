@@ -6,6 +6,7 @@ try:
         for line in f:
             if current_line_number == line_number:
                 print('Рядок знайдено!')
+                break
             current_line_number += 1
         else:
             print(f"Рядок з номером {line_number} не знайдено")
